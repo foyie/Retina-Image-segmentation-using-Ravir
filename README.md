@@ -4,6 +4,6 @@
 * First the original retina iamges and it's masks are augmented to have better training dataset.
 * Secondly, we build a standard U-Net architechture
 * Next, we build another U-Net architechture which consists of three decoders instead of one.
-* * one decoder for binary image segmentation of veins
+   * one decoder for binary image segmentation of veins
 * * one decoder for binary image segmentation of arteries
 * * one decoder for reconstruction of the retina scan
