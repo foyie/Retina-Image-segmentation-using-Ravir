@@ -5,5 +5,7 @@
 * Secondly, we build a standard U-Net architechture
 * Next, we build another U-Net architechture which consists of three decoders instead of one.
    * one decoder for binary image segmentation of veins
-* * one decoder for binary image segmentation of arteries
-* * one decoder for reconstruction of the retina scan
+   * one decoder for binary image segmentation of arteries
+   * one decoder for reconstruction of the retina scan
+* We cascade these two U-Net models in the training loop
+* Loss funtions that were used: Binary Cross Entropy Loss, Dice Loss, IOU Loss 
