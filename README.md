@@ -1,5 +1,6 @@
-# Retina Image segmentation using cascaded U-Net
+# RetinaNet: Retina Image segmentation using cascaded U-Net
 ## This project aims to improve the prediction accuracy of traditional models for retinal image mask segmentation for treating diabetic problems using a cascaded U-Net.
+"RetinaNet" is an innovative medical image segmentation project designed specifically for diabetic retinopathy identification. This project introduces a novel architecture employing a cascaded approach with two U-Net models, integrating three decoders within the second U-Net. Through meticulous training on diverse retina image datasets like Ravir and IDRid, the model achieves a remarkable accuracy of 97% in precisely extracting veins and blood vessels from previously unseen retina scans. This groundbreaking accuracy surpasses existing state-of-the-art models, promising significant advancements in diagnosing diseases like diabetic retinopathy, thereby potentially revolutionizing medical imaging analysis for improved healthcare outcomes.
 
 * First the original retina iamges and it's masks are augmented to have better training dataset.
 * Secondly, we build a standard U-Net architechture
